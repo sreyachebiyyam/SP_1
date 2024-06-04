@@ -74,7 +74,7 @@
             event.preventDefault();
             const number = document.getElementById('number').value;
 
-            fetch('/api/send_number', {
+            fetch('send_number', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
